@@ -1,0 +1,106 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "defaultPalette": false,
+            "background": true,
+            "text": true,
+            "link": true,
+            "heading": true,
+            "custom": true,
+            "button": true,
+            "caption": true,
+            "palette": [
+                {
+                    "name": "AAG Blue",
+                    "slug": "aag-color-blue",
+                    "color": "#293276"
+                },
+                {
+                    "name": "AAG Green",
+                    "slug": "aag-color-green",
+                    "color": "#25d366"
+                },
+                {
+                    "name": "AAG Indigo",
+                    "slug": "aag-color-indigo",
+                    "color": "#6a8391"
+                },
+                {
+                    "name": "AAG Orange",
+                    "slug": "aag-color-orange",
+                    "color": "#d78826"
+                },
+                {
+                    "name": "AAG Red",
+                    "slug": "aag-color-red",
+                    "color": "#ff0000"
+                },
+                {
+                    "name": "AAG Brown",
+                    "slug": "aag-color-brown",
+                    "color": "#6d472c"
+                },
+                {
+                    "name": "AAG Black",
+                    "slug": "aag-color-black",
+                    "color": "#0a0a0a"
+                },
+                {
+                    "name": "AAG White",
+                    "slug": "aag-color-color",
+                    "color": "#ededed"
+                },
+                {
+                    "name": "AAG Gray",
+                    "slug": "aag-color-black",
+                    "color": "#0a0a0a"
+                }
+            ]
+        },
+        "border": {
+            "color": true,
+            "style": true,
+            "width": true,
+            "radius": true
+        },
+        "spacing": {
+            "margin": true,
+            "padding": true,
+            "units": [
+                "px",
+                "em",
+                "rem",
+                "vh",
+                "vw",
+                "%"
+            ],
+            "blockGap": true
+        },
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "'Inter', sans-serif",
+                    "slug": "aag-inter",
+                    "name": "AAG Inter"
+                }
+            ],
+            "customFontSize": true,
+            "dropCap": true,
+            "lineHeight": true,
+            "letterSpacing": true,
+            "textTransform": true,
+            "textDecoration": true,
+            "fontStyle": true,
+            "fontWeight": true,
+            "textAlign": true
+        },
+        "layout": {
+            "contentSize": "1140px",
+            "wideSize": "1300px"
+        }
+    },
+    "styles": {}
+}
