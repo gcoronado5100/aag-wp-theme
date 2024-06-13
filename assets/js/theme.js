@@ -17,5 +17,5 @@ const contactBtn = document.querySelector(".contact-btn a");
 
 if (!document.getElementById("contact")) {
   console.log("No contact form found");
-  contactBtn.href = "/about#contact";
+  contactBtn.href = "/about-us#contact";
 }

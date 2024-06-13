@@ -1,0 +1,16 @@
+[12-Jun-2024 07:58:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/rkftvdzzkdwx/public_html/wp-content/themes/aag-wp-theme/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/rkftvdzzkdwx/public_html/wp-content/themes/aag-wp-theme/index.php on line 2
+[12-Jun-2024 20:02:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/rkftvdzzkdwx/public_html/wp-content/themes/aag-wp-theme/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/rkftvdzzkdwx/public_html/wp-content/themes/aag-wp-theme/index.php on line 2
+[13-Jun-2024 07:48:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/rkftvdzzkdwx/public_html/wp-content/themes/aag-wp-theme/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/rkftvdzzkdwx/public_html/wp-content/themes/aag-wp-theme/index.php on line 2
+[13-Jun-2024 12:30:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function language_attributes() in /home/rkftvdzzkdwx/public_html/wp-content/themes/aag-wp-theme/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/rkftvdzzkdwx/public_html/wp-content/themes/aag-wp-theme/index.php on line 2

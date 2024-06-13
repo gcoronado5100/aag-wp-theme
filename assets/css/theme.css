@@ -390,14 +390,20 @@ footer .footer__menu {
     overflow: hidden;
 }
 
+.aircraft__row {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1rem;
+}
+
 .airplane-box.box1 {
-    background: url('../img/boeing-747-884408.jpg') no-repeat center center;
-    background-size: cover;
+    background: url('../img/boeing-747-884408.png') no-repeat center center;
+    background-size: contain;
 }
 
 .airplane-box.box2 {
-    background: url('../img/airbus-2466266.jpg') no-repeat center center;
-    background-size: cover;
+    background: url('../img/airbus-2466266.png') no-repeat center center;
+    background-size: contain;
 }
 
 .airplane-box .box-overlay {
@@ -410,15 +416,49 @@ footer .footer__menu {
 }
 
 /* Parts boxes Settings */
+
+
 .part-box {
     min-height: 256px;
     width: 100%;
+    max-width: 256px;
     border-radius: 8px;
     overflow: hidden;
 }
 
-.part-box.box1 {
-    background: url('')
+#hosesBox {
+    background: url('https://aircraftaccessoriesgroup.com/wp-content/uploads/2024/06/Hoses.png') no-repeat center center;
+    background-size: contain;
+}
+
+#harnessesBox {
+    background: url('https://aircraftaccessoriesgroup.com/wp-content/uploads/2024/06/Harnesses.png') no-repeat center center;
+    background-size: contain;
+}
+
+#HeatBox {
+    background: url('https://aircraftaccessoriesgroup.com/wp-content/uploads/2024/06/Heat-Detectors.png') no-repeat center center;
+    background-size: cover;
+}
+
+#thermoBox {
+    background: url('https://aircraftaccessoriesgroup.com/wp-content/uploads/2024/06/Thermocouples.png') no-repeat center center;
+    background-size: cover;
+}
+
+#pumpsBox {
+    background: url('https://aircraftaccessoriesgroup.com/wp-content/uploads/2024/06/Pumps.png') no-repeat center center;
+    background-size: cover;
+}
+
+#coolingBox {
+    background: url('https://aircraftaccessoriesgroup.com/wp-content/uploads/2024/06/LPT-Cooling-Manifolds.png') no-repeat center center;
+    background-size: cover;
+}
+
+#manifoldsBox {
+    background: url('https://aircraftaccessoriesgroup.com/wp-content/uploads/2024/06/Manifolds.png') no-repeat center center;
+    background-size: cover;
 }
 
 .part-box .box-overlay {
@@ -537,6 +577,12 @@ footer .footer__menu {
         padding: 0 8px
     }
 
+    .parts__row {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
     .ph-1rem, #contact {
         padding: 0 1rem;
     }
@@ -552,6 +598,12 @@ footer .footer__menu {
     }
     .home__main .home__overlay .aag__logo {
         max-width: 300px;
+    }
+
+    .aircraft__row {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 1rem;
     }
 
     /* Footer Settings */
@@ -584,6 +636,15 @@ footer .footer__menu {
 
     footer .footer__copyright {
         padding: 0 8px;
+    }
+
+    footer .wp-block-image img {
+        max-width: 200px;
+        margin: 1.5rem auto;
+    }
+
+    footer::after {
+        top: 75%;
     }
 
     .post__container {
